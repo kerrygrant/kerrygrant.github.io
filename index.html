@@ -13,7 +13,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/scrolling-nav.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,6 +28,7 @@
   </head>
   
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
 
       <link rel="stylesheet" href="css/style.css">
 
@@ -36,8 +37,12 @@
 
 <body>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!-- Hero Overlay -->
   <div class= "overlay"></div>
-  <header id="home" class="header-area">
+  <!-- End of Overlay -->
+  <!-- Home Section-->
+  <section id="home" class="home-area">
+    <!-- Main Navigation -->
  <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -53,134 +58,320 @@
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#projects">Portfolio</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#portfolio">Portfolio<span class="caret"></span></a>
+        <ul class="dropdown-content">
+          <li><a href="#portfolio">Web Design</a></li>
+          <li><a href="#logo">Logo Design</a></li>
+          <li><a href="#print">Print Design</a></li>
+          <li><a href="#photography">Photography</a></li>
+        </ul>
+      </li>
             <li><a href="#contact">Contact</a></li>
           </ul>
           
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<div class="header-image-content">
-        <h3 class="header-title">Web Designer</h3>
-        <p class="header-text">My names Kerry Grant, welcome to my creative space!<br> This is where I post everything I've been working on from<br> paid projects to personal projects.</p>
-  <a href="#projects" class="btn btn-default btn-sm" role="button">View Portfolio</a>
+    <!-- End of Main Navigation -->
+    <!-- Hero Content -->
+<div class="hero-content">
+  <h3 class="hero-tagline">Professional Design That Gets Results</h3>
+   <div class="fadeIn">
+      <span>Web Design</span>
+      <span>Logo Design</span>
+      <span>Print Design</span>
+    </div>
+       
+  <a href="#portfolio" class="btn btn-default btn-sm" role="button">View Portfolio</a>
    
- 
       </div>
 </div>
-</header>
-    
+  <!-- End of Hero Content -->
+</section>
+<!-- End of Home Section-->
+ <!-- About Section-->   
 <section id="about" class= "about-area">
         <div class="container-fluid">
             <div class="row">
-             
-                <div class="about-bio">
-                  
-                  <h2 class="about-me-heading"> ABOUT ME</h2>
-                  
+                <div class="about-title">
+                  <h2> ABOUT ME</h2>
           <hr class="separator">
                   </div>
-               
-                  <div class="bio-text">
-                     
-                  <p class="Name"> Lorem ipsum dolor sit amet, consectetuer adipiscing. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus. </p> <br>
-                    <p class="about-info">
+               <div class="about-text">
+                    <p>
                     Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. 
                   </p>
-                </div>
-             
-          <div class="row skills">
-             
-             <div class="col-md-4">
-               <i class="fa fa-desktop"></i>
-                    <h5 class="margin-title">Web Design</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-                </div>
-              
-            <div class="col-md-4">
-              <i class="fa fa-file-code-o"></i>
-                    <h5 class="margin-title">Web development</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-              
-              </div>
-            <div class="col-md-4">
-              <i class="fa fa-camera"></i>
-                    <h5 class="margin-title">Photography</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-              </div>
-        </div>  
+                 </div>
+               </div>
+             </div>
   </section>
- 
-  <section id="projects" class= "work">
+ <!-- End of About Section-->  
+<!-- Portfolio Section-->  
+  <section id="portfolio" class= "web">
         <div class="container-fluid">
             <div class="row">
-             
               <div class="col-md-4">
-                <div class="grid">
-					<figure class="effect-jazz">
-						<img src="https://i.imgsafe.org/18b0e98112.jpeg" alt="img25"/>
-						<figcaption>
-							<h2>NDP <span>Hairdressing</span></h2>
-							<p>Web Design, Front-end and Logo Design</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-              </div>
-                  </div>
-                
-                <div class="col-md-4">
-                <div class="grid">
-					<figure class="effect-jazz">
-						<img src="https://i.imgsafe.org/18b0e98112.jpeg" alt="img25"/>
-						<figcaption>
-							<h2>NDP <span>Hairdressing</span></h2>
-							<p>Web Design, Front-end and Logo Design</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-              </div>
-              </div>
-                <div class="col-md-4">
-                <div class="grid">
-					<figure class="effect-jazz">
-						<img src="https://i.imgsafe.org/18b0e98112.jpeg" alt="img25"/>
-						<figcaption>
-							<h2>NDP <span>Hairdressing</span></h2>
-							<p>Web Design, Front-end and Logo Design</p>
-							<a href="#">View more</a>
-						</figcaption>			
-					</figure>
-              </div>
-              </div>
+                <div class="ndphairdressing-website">
+                <h2>Ndphairdressing.com</h2>
+                  <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. </p>
                   
+<a href="#portfolio" class="btn btn-default btn-sm" role="button">View Portfolio</a>
+                  </div>
+              </div>
+                <div class="col-md-8">
+                <div class="ndphairdressing-web-pic">
+                 <img src="https://i.imgsafe.org/e23dd3aa66.png" width="900" height="" alt="" title=""> 
+                  </div>
+              </div>
+          </div>
+              </div>
                 </div>
-                </div>
+                
  </section>
-   
-    <section id="social" class= "social-media">
-                <div class="icons">
-                  <a href="#" target="new" title="Facebook"> 
-            <img class="socialicon" src="http://imgh.us/facebook-logo-button.svg" height="60" width="60"> 
-        </a>
-                   <a href="#" target="new" title="Instagram"> 
-            <img class="socialicon" src="http://imgh.us/instagram-logo_1.svg" height="60" width="60"> 
-        </a>
-                   <a href="#" target="new" title="Linkedin"> 
-            <img class="socialicon" src="http://imgh.us/linkedin-logo-button.svg" height="60" width="60"> 
-        </a>
-                   <a href="#" target="new" title="Twitter"> 
-            <img class="socialicon" src="http://imgh.us/twitter-logo-button.svg" height="60" width="60"> 
-        </a>
-      </div>
+<!-- End of Portfolio Section one--> 
+<!-- Web Design Project 2-->
+<section class= "webdesign-two">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="rjg-website">
+                <h2>Rjgbizedassociates.co.uk</h2>
+                  <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. </p>
+                  
+<a href="#portfolio" class="btn btn-default btn-sm" role="button">View Portfolio</a>
+                  </div>
+              </div>
+                <div class="col-md-8">
+                <div class="rjg-web-pic">
+                 <img src="https://i.imgsafe.org/e23dd3aa66.png" width="900" height="" alt="" title=""> 
+                  </div>
+              </div>
+          </div>
+              </div>
+                </div>
+                
+ </section>
+<!-- End of Web Design Project 2-->
+<!-- Logo Design Section--> 
+      <section id="logo" class= "logo-design">
+        <div class="container-fluid">
+              <div class="row">
+               <div class="col-md-3">
+               <div class="hovereffect">
+        <img class="img-responsive" src="https://i.imgsafe.org/17933aaa06.jpeg" alt="">
+        <div class="overlay-img">
+            <a class="info" href="#" style="
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+">link here</a>
+        </div>
+    </div>
+                 </div>
+         <div class="col-md-3">
+               <div class="hovereffect">
+        <img class="img-responsive" src="https://i.imgsafe.org/17933aaa06.jpeg" alt="">
+        <div class="overlay-img">
+           <h2>Hover effect 1</h2>
+           <a class="info" href="#" style="
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+">link here</a>
+        </div>
+    </div>
+                 </div>
+                   <div class="col-md-3">
+               <div class="hovereffect">
+        <img class="img-responsive" src="https://i.imgsafe.org/17933aaa06.jpeg" alt="">
+        <div class="overlay-img">
+           <h2>Hover effect 1</h2>
+            <a class="info" href="#" style="
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+">link here</a>
+        </div>
+    </div>
+                 </div>
+                   <div class="col-md-3">
+               <div class="hovereffect">
+        <img class="img-responsive" src="https://i.imgsafe.org/17933aaa06.jpeg" alt="">
+        <div class="overlay-img">
+           <h2>Hover effect 1</h2>
+            <a class="info" href="#" style="
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+">link here</a>
+        </div>
+    </div>
+                 </div>
+               </div>
+             </div>
   </section>
-   
+<!-- End of Logo Design Section-->   
+<!-- Contact Me Section-->
+   <section id="contactme">
+     <div class="contact-text">
+       <h3>Like what you see? I'd love to work with you.</h3>
+        <a href="#contact" class="btn btn-default btn-sm" role="button">Contact Me</a>
+     </div>
+  </section>
+   <!--End of  Contact Me Section-->
+<!-- Print Design Section--> 
+      <section id="print">
+        <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-4">
+               <div class="hovereffect">
+        <img class="img-responsive" src="https://i.imgsafe.org/d0ffdacf10.jpg" alt="">
+        <div class="overlay-print">
+           <h2>Hover effect 3</h2>
+           <a class="info" href="#">link here</a>
+        </div>
+    </div>
+                 </div>
+                   <div class="col-md-4">
+               <div class="hovereffect">
+        <img class="img-responsive" src="https://i.imgsafe.org/d0ffdacf10.jpg" alt="">
+        <div class="overlay-print">
+           <h2>Hover effect 3</h2>
+           <a class="info" href="#">link here</a>
+        </div>
+    </div>
+                 </div>
+                   <div class="col-md-4">
+               <div class="hovereffect">
+        <img class="img-responsive" src="https://i.imgsafe.org/d0ffdacf10.jpg" alt="">
+        <div class="overlay-print">
+           <h2>Hover effect 3</h2>
+           <a class="info" href="#">link here</a>
+        </div>
+    </div>
+                 </div>
+               </div>
+             </div>
+  </section>
+<!-- End of Print Design Section-->   
+<!-- Photography Section--> 
+      <section id="photography" class= "pics">
+        <div class="container-fluid">
+              <div class="row">
+               <div class="col-md-3">
+               <div class="effect">
+        <img class="img-responsive" src="https://i.imgsafe.org/17933aaa06.jpeg" alt="">
+        <div class="effectoverlay-img">
+           <a class="info" href="#" style="
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+">link here</a>
+        </div>
+    </div>
+                 </div>
+            
+         <div class="col-md-3">
+               <div class="effect">
+        <img class="img-responsive" src="https://i.imgsafe.org/17933aaa06.jpeg" alt="">
+        <div class="effectoverlay-img">
+           <a class="info" href="#" style="
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+">link here</a>
+        </div>
+    </div>
+                 </div>
+            
+                <div class="col-md-3">
+               <div class="effect">
+        <img class="img-responsive" src="https://i.imgsafe.org/17933aaa06.jpeg" alt="">
+        <div class="effectoverlay-img">
+           <a class="info" href="#" style="
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+">link here</a>
+        </div>
+    </div>
+                 </div>
+            
+                  <div class="col-md-3">
+               <div class="effect">
+        <img class="img-responsive" src="https://i.imgsafe.org/17933aaa06.jpeg" alt="">
+        <div class="effectoverlay-img">
+           <a class="info" href="#" style="
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+">link here</a>
+        </div>
+    </div>
+                 </div>
+            
+               </div>
+             </div>
+  </section>
+<!-- End of Photography Section-->   
+<!-- Contact Section--> 
+      <section id="contact" class= "contact-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="contact-title">
+                  <h2> Contact</h2>     
+          <hr class="separator">
+                  </div>
+                </div>
+                 <div class="row">
+               <div class="col-md-4">
+               <div class="contact-details">
+                   <i class="ion-ios-location-outline"></i>
+									<h4>ADDRESS</h4>
+									<p>123 Street, New York (USA)</p>
+						
+                </div>
+                 </div>
+                   <div class="col-md-4">
+               <div class="contact-details">
+                  <i class="ion-ios-telephone-outline"></i>
+										<h4>PHONE</h4>
+										<p>123 Street, New York (USA)</p>
+                </div>
+                 </div>
+                   <div class="col-md-4">
+               <div class="contact-details">
+                   <i class="ion-ios-email-outline"></i>
+										<h4>EMAIL</h4>
+										<p>123 Street, New York (USA)</p>
+                </div>
+                 </div>
+               </div>
+             </div>
+  </section>
+<!-- End of Contact Section-->    
+<!-- Footer Section-->
+   <section id="footer" class= "footer-content">
+     <h2>Kgrant</h2>
+       <div class="copyright">
+        <p>KGRANT© All Rights Reserved</p>
+     </div>
+     <ul>
+					<li><a href="./" class=""><i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+					<li><a href="./" class=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="./" class=""><i class="fa fa-linkedin" aria-hidden="true"></i> </a></li>
+					<li><a href="./" class=""><i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+				</ul>
+  </section>
+   <!--End of Footer Section-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-	<script src="js/index.js"></script>
   </body>
- 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
 
 </body>
 </html>
