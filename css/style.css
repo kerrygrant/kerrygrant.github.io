@@ -364,7 +364,7 @@ filter:alpha(opacity=0);
 -webkit-transition:all .2s ease-in-out;
 transition:all .2s ease-in-out;
 padding:7px 14px;
-margin-top: 0px;
+margin-top: 50px;
 }
 
 .hovereffect a.info:hover {
@@ -378,7 +378,7 @@ transform:scale(1.2);
 }
 
 .hovereffect:hover .overlay-img {
-opacity:1;
+opacity:0.8;
   background: linear-gradient(140deg, rgba(45, 13, 14, 0.8), rgba(9, 11, 31, 0.8));
 }
 
@@ -428,6 +428,10 @@ Print Design Section
   position: relative;
   text-align: center;
   cursor: default;
+  width: 100%;
+    max-width: 100%;
+    height: 260px;
+  
 }
 
 .hovereffect .overlay-print {
@@ -444,6 +448,9 @@ Print Design Section
   position: relative;
   -webkit-transition: all 0.4s ease-in;
   transition: all 0.4s ease-in;
+  max-width: 100%; /*set the width or max-width*/
+  height: 100%;
+    object-fit: cover;
 }
 
 .hovereffect:hover img {
@@ -468,7 +475,7 @@ Print Design Section
   border: 1px solid #fff;
   margin: 50px 0 0 0;
   background-color: transparent;
-  margin-top: 0px;
+  margin-top: 50px;
 }
 
 .hovereffect a.info:hover {
