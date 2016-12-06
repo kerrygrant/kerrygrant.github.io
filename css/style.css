@@ -259,7 +259,7 @@ h3.hero-tagline {
   line-height: 1.7; }
 
 #portfolio h2 {
-  font-size: 15px;
+  font-size: 14px;
   letter-spacing: 5px;
   text-transform: uppercase;
   color: #fff;
@@ -303,8 +303,17 @@ h3.hero-tagline {
     height: 490px;
     }
 }
-.container-fluid {
-    word-wrap: break-word;
+
+@media only screen and (max-width: 400px) {
+    .webdesign-two .row {
+		margin-left: 10px;
+		margin-right: 10px;
+		}
+}
+@media only screen and (max-width: 400px) {
+    .rjg-website {
+    text-align: center!important;
+    }
 }
 @media only screen and (max-width: 980px) {
     .vertical-align {
