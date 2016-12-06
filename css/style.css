@@ -281,7 +281,8 @@ h3.hero-tagline {
 
 .ndphairdressing-web-pic {
   text-align: center; 
-  margin-left: 50px; }
+  margin-left: 20px;
+margin-right: 20px; }
 
 #portfolio a:hover {
   color: #000000; }
@@ -304,6 +305,17 @@ h3.hero-tagline {
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .web .row {
+		margin-left: 10px;
+		margin-right: 10px;
+		}
+}
+@media only screen and (max-width: 400px) {
+    .ndphairdressing-website {
+    text-align: center!important;
+    }
+}
 @media only screen and (max-width: 400px) {
     .webdesign-two .row {
 		margin-left: 10px;
@@ -353,7 +365,8 @@ h3.hero-tagline {
 
 .rjg-web-pic {
   text-align: center; 
-  margin-left: 50px; }
+  margin-left: 20px;
+margin-right: 20px;  }
 
 .webdesign-two a:hover {
   color: #000000; }
