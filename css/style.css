@@ -266,20 +266,49 @@ h3.hero-tagline {
   font-family: Lato;
   margin-top: 0; }
 
+  
+	  
+
+
 #portfolio {
-  background: linear-gradient(140deg, rgba(45, 13, 14, 0.8), rgba(9, 11, 31, 0.8));
+  background: linear-gradient(140deg, rgba(45, 13, 14, 0.8), rgb(6, 6, 8));
   padding-bottom: 40px;
-  padding-top: 40px; }
+  padding-top: 40px;}
 
 .ndphairdressing-web-pic img {
-  max-width: 100%; }
+  max-width: 100%; 
+   }
 
 .ndphairdressing-web-pic {
-  text-align: center; }
+  text-align: center; 
+  margin-left: 50px; }
 
 #portfolio a:hover {
   color: #000000; }
+  
+@media only screen and (min-width: 980px) {
+    .vertical-align {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 490px;
+    }
+}
 
+@media only screen and (min-width: 980px) {
+    .vertical-alignpic {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 490px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .vertical-align {
+    margin-bottom: 30px;
+    }
+}
 /*---------------------------
 	Portfolio Section
 ----------------------------*/
@@ -301,7 +330,7 @@ h3.hero-tagline {
   margin-top: 0; }
 
 .webdesign-two {
-  background: linear-gradient(140deg, rgba(45, 13, 14, 0.8), rgba(9, 11, 31, 0.8));
+  background: linear-gradient(140deg, rgba(45, 13, 14, 0.8), rgb(6, 6, 8));
   padding-bottom: 40px;
   padding-top: 40px; }
 
@@ -309,7 +338,8 @@ h3.hero-tagline {
   max-width: 100%; }
 
 .rjg-web-pic {
-  text-align: center; }
+  text-align: center; 
+  margin-left: 50px; }
 
 .webdesign-two a:hover {
   color: #000000; }
