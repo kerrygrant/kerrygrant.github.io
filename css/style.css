@@ -50,7 +50,7 @@ a {
   position: absolute;
   top: 0;
   left: 0;
-  height: 900px;
+  height: 700px;
   width: 100%;
   z-index: 1;
   background: linear-gradient(140deg, rgba(45, 13, 14, 0.8), rgba(9, 11, 31, 0.8));
@@ -75,7 +75,7 @@ section#home {
   background: url(https://i.imgsafe.org/db12a41cdd.jpg);
   background-position: 50% 50%; 
   background-size: cover; background-attachment: fixed;       background-repeat: no-repeat; background-size: cover; 
-  height: 900px; }
+  height: 700px; }
 
 /*---------------------------
 	Main Navigation
