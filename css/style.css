@@ -277,7 +277,7 @@ h3.hero-tagline {
 
 .ndphairdressing-web-pic img {
   max-width: 100%; 
-   }
+  margin: auto; }
 
 .ndphairdressing-web-pic {
   text-align: center; 
@@ -303,7 +303,9 @@ h3.hero-tagline {
     height: 490px;
     }
 }
-
+.container-fluid {
+    word-wrap: break-word;
+}
 @media only screen and (max-width: 980px) {
     .vertical-align {
     margin-bottom: 30px;
@@ -328,14 +330,17 @@ h3.hero-tagline {
   color: #fff;
   font-family: Lato;
   margin-top: 0; }
-
+/*.container-fluid {
+    word-wrap: normal;  
+}*/
 .webdesign-two {
   background: linear-gradient(140deg, rgba(45, 13, 14, 0.8), rgb(6, 6, 8));
   padding-bottom: 40px;
   padding-top: 40px; }
 
 .rjg-web-pic img {
-  max-width: 100%; }
+  max-width: 100%; 
+  margin: auto; }
 
 .rjg-web-pic {
   text-align: center; 
