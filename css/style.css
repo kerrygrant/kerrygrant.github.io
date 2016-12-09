@@ -308,6 +308,9 @@ h3.hero-tagline {
   padding-top: 30px;
   text-align: center; }
   
+#about .row {
+  margin-right:20px;
+  margin-left: 20px; }
 
 #about h2 {
   color: #000000;
